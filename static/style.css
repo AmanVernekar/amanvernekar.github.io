@@ -1,16 +1,16 @@
 body {
   font-family: Helvetica;
-  font-size: 13px;
+  font-size: 1.3em;
 }
 
 #menu {
   float: right;
-  margin-top: 30px;
-  margin-right: 20px;
+  margin-top: 1.875em;
+  margin-right: 1.25em;
   text-align: right;
-  width: 170px;
+  width: 8em;
   font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
-  font-size: 1.7em;
+  font-size: 1em;
 }
 
 #menu .title {
@@ -31,20 +31,21 @@ body {
 }
 
 #left {
-  height: 1px;
+  height: 0.0625em;
   float: left;
   display: block;
   min-width: 0;
   overflow: hidden;
-  width: 200px;
+  width: 12.5em;
   margin: 0;
   padding: 0;
 }
 
 #content {
-  margin-top: 15px;
+  margin-left: 1em;
+  margin-top: 0.9375em;
   float: left;
-  width: 600px;
+  width: 30em;
 }
 
 #content h1, #content h2, #content h3 {
@@ -57,18 +58,18 @@ body {
 }
 
 #content .byline, #content .byline a, #content .note {
-  font-size: 10px;
+  font-size: 0.625em;
   color: #aaa;
 }
 
 #content p, #content ul {
   color: #333;
-  line-height: 18px;
+  line-height: 1.125em;
 }
 
 #content sup.note {
   display: inline-block;
-  margin-top: -5px;
+  margin-top: -0.3125em;
 }
 
 #content p.notop {
@@ -78,7 +79,7 @@ body {
 #content .thanks {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid #eee;
+  border-top: 0.0625em solid #eee;
   margin-bottom: 4em;
   font-size: smaller;
   color: #777;
@@ -93,7 +94,7 @@ body {
 }
 
 .post + .post {
-  margin-top: 50px;
+  margin-top: 3.125em;
 }
 
 sup, sub {
